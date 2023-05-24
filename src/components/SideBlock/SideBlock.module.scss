@@ -1,0 +1,26 @@
+.root {
+	margin-bottom: 20px;
+ }
+ 
+ .title {
+	padding: 15px 15px 0 15px;
+ }
+
+.container {
+	max-height: 400px;
+	overflow: auto;
+	margin-right: 0px;
+	background-color: #ffffff;
+ }
+ 
+ .container::-webkit-scrollbar {
+	width: 0px;
+ }
+ 
+ .container::-moz-scrollbar {
+	width: 0px;
+ }
+
+ .container::-ms-scrollbar {
+	width: 0px;
+ }
