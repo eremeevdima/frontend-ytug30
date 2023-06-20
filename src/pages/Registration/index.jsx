@@ -72,7 +72,7 @@ export const Registration = () => {
       </Typography>
       <div className={styles.avatar}>
         <label htmlFor="avatar-input">
-          <Avatar sx={{ width: 100, height: 100 }} src={ `http://localhost:4444${avatarUrl}`} />
+          <Avatar sx={{ width: 100, height: 100 }} src={ `${process.env.REACT_APP_API_URL}${avatarUrl}`} />
         </label>
         <input
           id="avatar-input"

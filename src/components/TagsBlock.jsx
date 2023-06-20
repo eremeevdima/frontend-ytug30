@@ -16,7 +16,7 @@ export const TagsBlock = ({ isLoading = true }) => {
   useEffect(() => {
     const fetchTags = async () => {
       try {
-        const response = await axios.get("http://localhost:4444/posts/tags");
+        const response = await axios.get(`${process.env.REACT_APP_API_URL}/posts/tags`);
         setAllTags(response.data);
       } catch (error) {
         console.error(error);
